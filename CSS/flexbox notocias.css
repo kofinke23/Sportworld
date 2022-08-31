@@ -1,0 +1,42 @@
+
+.noticiasvideos{
+    display: flex;
+    background-color: aquamarine;
+    border: 2px solid ;
+    border-color:black ;
+    width: 35.5%;
+    padding: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-shadow:0 1rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+.noticiavideo{
+    width: 182px;
+    height: 130px;
+    background-color: black;
+    margin: 10px;
+    border: 2px solid;
+    border-color: black;
+}
+
+.noticiavideo{
+    width: 290px;
+    height: 131px;
+    background-color: blueviolet;
+    margin: 10px;
+    border: 2px solid;
+    border-color: black;
+    
+   
+}
+
+.noticiatextovideo a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    margin: 10px;
+    
+}
+
