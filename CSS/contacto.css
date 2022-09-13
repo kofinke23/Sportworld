@@ -50,3 +50,15 @@ form{
     left: 690px; 
 }
 
+.pelota{
+    position: absolute;
+    top:28px;
+    width: 120px;
+    margin-left: 777px;
+    transition: all 0.5s ease;
+}
+
+.pelota:hover{
+    transform: rotate(160deg);
+    transition: all 0.5s ease;
+}
