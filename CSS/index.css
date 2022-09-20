@@ -1,4 +1,11 @@
 
+  body {
+    background-color: #FCA311;
+    background: -webkit-linear-gradient(to right, #780206, #061161);
+    background: linear-gradient(to right,#780206, #061161 );
+  }
+
+/*head*/
 .registro-iniciosesion{
     display: flex;
     width: 200px;
@@ -15,12 +22,6 @@
     right: 900px;
     width: 400px;
 }
-
-  body {
-    background-color: #FCA311;
-    background: -webkit-linear-gradient(to right, #780206, #061161);
-    background: linear-gradient(to right,#780206, #061161 );
-  }
 
 .logo{
     background-color: #FCA311;
