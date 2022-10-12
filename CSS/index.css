@@ -499,3 +499,124 @@ body {
     transition: .3s ease all;
     border-radius: 5px;
  }
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 480px) {
+
+    
+    .registro-iniciosesion {
+      position: absolute;
+      top: 30px;
+      left: 70px;
+      right: 900px;
+      width: 600px; 
+    }
+
+    .logosw{
+      width: 250px;
+      height: 260px;
+    }
+
+    .pelota{
+      width: 190px;
+      height: 200px;
+      left: 585px ;
+    }
+    
+    .logo {
+      background-color: #FCA311;
+      top: 700px;
+      width: 300px;
+      padding: 0px 0px 10px 40px;
+      margin-left: 60px;
+      border: 2px solid;
+      border-color: #14213d; 
+    }
+
+    .buscador {
+      position: absolute;
+      top: 190px;
+      left: 85px;
+      width: 250px;
+      height: 40px; 
+    }
+
+    .dropdown {
+      position: absolute;
+      top: -50px;
+      left: 70px;
+      right: 900px;
+      width: 300px;
+      color: #FCA311 solid;
+    }
+
+    .franja{
+      top: 250px;
+      
+    }
+
+    .nav{
+        position: relative;
+        top: -190px;
+        left: 0px;
+        width: 600px; 
+      }
+
+      .video {
+        position: absolute;
+        background-color: white;
+        padding: 45px 5px 10px 35px;
+        top: 420px;
+        left: 10px;
+        font-size: medium;
+        align-items: center;
+        justify-content: center; 
+      }
+
+      .video1{
+        width: 300px;
+        height: 320px;
+        box-shadow: none
+      }
+
+      .titulovideo {
+        position: flex;
+        background-color: white;
+        padding: 0px 200px -20px 100px;
+        top: 340px;
+        left: 10px; 
+      }
+
+      .titulopartidos {
+        width: 48%;
+        padding: 40px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: absolute;
+        padding: 30px 219px 0px 110px;
+        top: 1250px;
+        left: 60px; 
+        background-color: white;
+      }
+      
+      .proximospartidos {
+        display: flex;
+        background-color: white;
+        width: 80%;
+        padding: 45px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: absolute;
+        padding: 50px 30px 30px 30px;
+        top: 1300px;
+        left: 60px;
+        font-size: medium;
+       }
+    }
